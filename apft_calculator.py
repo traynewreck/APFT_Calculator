@@ -113,7 +113,6 @@ def suScore(sex, age, situps):
 def runScore(sex, age, run):
     age_range = ageRange(age)
     run = roundUpRun(run)
-    print(f'runtime is: {run}')
     if sex == 'm':
         if int(run) > 2630:
             score = 0
